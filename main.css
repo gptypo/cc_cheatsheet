@@ -1,0 +1,107 @@
+body {
+    font-family: 'Barlow', sans-serif;
+
+}
+
+
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width:60em) {
+    .container {
+        display:flex;
+        flex-direction: column;
+    }
+    div.right {
+        display: none;
+    }
+    div.left {
+        display: none;
+    }
+    main.main {
+        width: 100%
+    }
+}
+
+.table {
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+.header {
+    background-color: coral;
+    width: 100%;
+    font-weight: 600;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(255, 227, 217);
+}
+
+.main {
+    align-self: center;
+    width: 50vw;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.header span {
+    border-bottom: 20px solid rgb(255, 227, 217);
+}
+
+td {
+    padding: 1em 3em 1em 3em;
+}
+
+tr {
+    text-align: center;
+}
+tr:nth-child(even) {
+    background-color: rgb(255, 227, 217);
+    
+}
+
+p {
+    margin: 0 auto;
+}
+
+.thead {
+    background-color: coral;
+    color: rgb(255, 227, 217);
+}
+
+h2 {
+    color: coral;
+    margin-top: 2em;
+}
+
+.right {
+        display: flex;
+        font-size: 30em;
+        width: 25vw;
+        max-height: 100vh;
+        color: coral;
+        justify-content: center;
+}
+
+.left {
+        display: flex;
+        font-size: 30em;
+        width: 25vw;
+        max-height: 100vh;
+        color: coral;
+        justify-content: center;
+}
+
